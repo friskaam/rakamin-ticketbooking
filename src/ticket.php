@@ -61,9 +61,9 @@ $formatted_date_selected = formatDate($date_selected);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinema - Your tickets</title>
 
-    <link rel="icon" href="../public/cinema-logo.png" type="image/png">
-    <link rel="stylesheet" href="../styles/input.css">
-    <link rel="stylesheet" href="../styles/custom.css">
+    <link rel="icon" href="./public/cinema-logo.png" type="image/png">
+    <link rel="stylesheet" href="./styles/input.css">
+    <link rel="stylesheet" href="./styles/custom.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
