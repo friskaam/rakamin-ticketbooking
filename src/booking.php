@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinema - Book your ticket</title>
 
-    <link rel="icon" href="./public/cinema-logo.png" type="image/png">
-    <link rel="stylesheet" href="./styles/input.css">
-    <link rel="stylesheet" href="./styles/custom.css">
+    <link rel="icon" href="../public/cinema-logo.png" type="image/png">
+    <link rel="stylesheet" href="../styles/input.css">
+    <link rel="stylesheet" href="../styles/custom.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@
                 <!-- movie card -->
                 <!-- img -->
                 <div class="row-span-4">
-                    <img class="w-full h-full rounded-xl object-cover shadow-lg" src="./public/interstellar-poster.jpg"
+                    <img class="w-full h-full rounded-xl object-cover shadow-lg" src="../public/interstellar-poster.jpg"
                         alt="thumbnail">
                 </div>
 
@@ -266,7 +266,7 @@
                                     <div class="grid grid-cols-3 gap-4">
                                         <div class="mb-4">
                                             <img class="w-full h-full rounded-xl object-cover shadow-lg"
-                                                src="./public/interstellar-poster.jpg" alt="thumbnail">
+                                                src="../public/interstellar-poster.jpg" alt="thumbnail">
                                         </div>
                                         <div class="col-span-2">
                                             <p class="text-lg text-white font-medium mb-4">Order Detail</p>
