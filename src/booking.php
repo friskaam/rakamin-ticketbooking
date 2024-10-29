@@ -365,27 +365,18 @@
                     </div>
 
                     <!-- warning modal -->
-                    <!-- Warning Modal -->
                     <div id="warning-modal"
                         class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black bg-opacity-50">
-                        <div class="bg-white rounded-lg shadow-lg max-w-md w-full p-6 relative">
-                            <!-- Close Button -->
-                            <button id="close-warning-modal"
-                                class="absolute top-3 right-3 text-gray-500 hover:text-red-500">
-                                <i class="bx bx-x text-xl"></i>
-                            </button>
+                        <div class="absolute inset-0 bg-black opacity-40"></div>
+                        <div class="bg-gray-800 rounded-lg shadow-lg max-w-md w-full p-6 relative">
 
-                            <!-- Modal Content -->
                             <div class="flex flex-col items-center text-center">
-                                <i class="bx bxs-error-circle text-yellow-500 text-6xl mb-4"></i>
-                                <h2 class="text-xl font-semibold text-gray-800 mb-2">Input Required</h2>
-                                <p id="warning-message" class="text-gray-600">Please complete the required fields.</p>
+                                <i class="bx bxs-error-circle text-red-600 text-6xl mb-4"></i>
+                                <h2 id="warning-message" class="text-xl font-semibold text-white mb-2"></h2>
                             </div>
-
-                            <!-- Modal Footer -->
                             <div class="mt-6 flex justify-center">
                                 <button id="close-warning-modal"
-                                    class="px-5 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">
+                                    class="px-5 py-2 border border-white text-white rounded-md hover:bg-red-600 hover:border-red-600">
                                     OK
                                 </button>
                             </div>
